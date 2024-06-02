@@ -28,11 +28,12 @@ const UserManagement = () => {
     
   return (
     <>
-      <div className="bg-slate-200 mx-auto px-4 sm:px-8">
+      <div className="bg-slate-200 mx-auto px-4 sm:px-8 rounded-lg">
      {modalOpen ?(
-       <div>
-       <AddUser/>
-     </div>
+      <div className='mx-auto rounded-lg'>
+        <AddUser/>
+      </div>
+       
      ):(<div className="py-8">
         <div>
           <h2 className="text-2xl font-semibold leading-tight">User Details</h2>
